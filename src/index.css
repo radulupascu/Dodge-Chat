@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #353941;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+main::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+main::-webkit-scrollbar-track {
+    background: rgb(38, 40, 43);
+}
+
+main::-webkit-scrollbar-thumb {
+    background: #1e1e24;
+}
+@media only screen and (max-width: 768px) {
+    #chatWindow-outline {
+        padding: 0;
+    }
+    #chatWindow {
+        width: 100%;
+        height: 100vh;
+    }
+}
